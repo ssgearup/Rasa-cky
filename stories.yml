@@ -1,0 +1,767 @@
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_mood_great
+ 
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_mood_great
+ 
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+ 
+- story: ask can I
+  steps:
+  - intent: Can_I
+  - action: utter_Can_I
+ 
+- story: report
+  steps:
+  - intent: ask_report
+  - action: utter_ask_report
+ 
+- story: course_query
+  steps:
+  - intent: ask_course_query
+  - action: utter_ask_course_query
+ 
+- story: remove_course
+  steps:
+  - intent: ask_remove_course
+  - action: utter_ask_remove_course
+ 
+- story: Interest
+  steps:
+  - intent: Interest
+  - action: utter_interest
+ 
+- story: Future_Python
+  steps:
+  - intent: Future_Python
+  - action: utter_future_python
+ 
+- story: importance Coding
+  steps:
+  - intent: coding_importance
+  - action: utter_coding_importance
+ 
+- story: App
+  steps:
+  - intent: about_app
+  - action: utter_about_app
+ 
+- story: academic progress
+  steps:
+  - intent: academic_progress
+  - action: utter_academic_progress
+ 
+- story: student struggling
+  steps:
+  - intent: student_struggling
+  - action: utter_student_struggling
+ 
+- story: co-curricular
+  steps:
+  - intent: Ask_co-curricular
+  - action: utter_Ask_co-curricular
+ 
+- story: helpline
+  steps:
+  - intent: Ask_guide_helpline
+  - action: utter_Ask_guide_helpline
+ 
+- story: block-coding
+  steps:
+  - intent: Ask_block_based_coding
+  - action: utter_Ask_block_based_coding
+- story: CKY
+  steps:
+  - intent: About_CKY
+  - action: utter_about_cky
+ 
+- story: no_basic_classes
+  steps:
+  - intent: no_basic_classes
+  - action: utter_no_basic_classes
+ 
+- story: why_cky
+  steps:
+  - intent: why_cky
+  - action: utter_why_cky
+ 
+- story: experience
+  steps:
+  - intent: experience
+  - action: utter_experience
+ 
+- story: time_web_expert
+  steps:
+  - intent: time_web_expert
+  - action: utter_time_web_expert
+ 
+- story: scratch_age
+  steps:
+  - intent: scratch_age
+  - action: utter_scratch_age
+ 
+- story: programming
+  steps:
+  - intent: programming
+  - action: utter_programming
+ 
+- story: opensource
+  steps:
+  - intent: opensource
+  - action: utter_opensource
+ 
+- story: fun_projects
+  steps:
+  - intent: fun_projects
+  - action: utter_fun_projects
+ 
+- story: ds_roadmap
+  steps:
+  - intent: ds_roadmap
+  - action: utter_ds_roadmap
+ 
+- story:  duration_trial
+  steps:
+  - intent:  duration_trial
+  - action: utter_duration_trial
+ 
+- story:  duration_proffesional
+  steps:
+  - intent:  duration_proffesional
+  - action: utter_duration_proffesional
+ 
+- story:  batch_size
+  steps:
+  - intent:  batch_size
+  - action: utter_batch_size
+ 
+- story:  duration_starter
+  steps:
+  - intent:  duration_starter
+  - action: utter_duration_starter
+ 
+- story:  duration_basic
+  steps:
+  - intent:  duration_basic
+  - action: utter_duration_basic
+ 
+- story:  super_yearly
+  steps:
+  - intent:  super_yearly
+  - action: utter_super_yearly
+ 
+- story:  no_weekly_classes
+  steps:
+  - intent:  no_weekly_classes
+  - action: utter_no_weekly_classes
+ 
+- story: no_weekly_starter
+  steps:
+  - intent: no_weekly_starter
+  - action: utter_no_weekly_starter
+ 
+- story: no_basic_classes
+  steps:
+  - intent: no_basic_classes
+  - action: utter_no_basic_classes
+ 
+- story: duration_intermediate
+  steps:
+  - intent: duration_intermediate
+  - action: utter_duration_intermediate
+ 
+- story: correct_age
+  steps:
+  - intent: correct_age
+  - action: utter_correct_age
+ 
+- story: bug
+  steps:
+  - intent: bug
+  - action: utter_bug
+ 
+- story: classes_yearly
+  steps:
+  - intent: classes_yearly
+  - action: utter_classes_yearly
+ 
+- story: cancellation
+  steps:
+  - intent: cancellation
+  - action: utter_cancellation
+ 
+- story: html_duration
+  steps:
+  - intent: html_duration
+  - action: utter_html_duration
+ 
+- story: duration_learn
+  steps:
+  - intent: duration_learn
+  - action: utter_duration_learn
+ 
+- story: duration_class
+  steps:
+  - intent: duration_class
+  - action: utter_duration_class
+ 
+- story: advance_include
+  steps:
+  - intent: advance_include
+  - action: utter_advance_include
+ 
+- story: teacher_accuracy
+  steps:
+  - intent: teacher_accuracy
+  - action: utter_teacher_accuracy
+ 
+- story: annual_fees
+  steps:
+  - intent: annual_fees
+  - action: utter_annual_fees
+ 
+- story: platform
+  steps:
+  - intent: platform
+  - action: utter_platform
+ 
+- story: 5th_grader
+  steps:
+  - intent: 5th_grader
+  - action: utter_5th_grader
+ 
+- story: api
+  steps:
+  - intent: api
+  - action: utter_api
+ 
+- story: salary_fullstack
+  steps:
+  - intent: salary_fullstack
+  - action: utter_salary_fullstack
+ 
+- story: salary_ml
+  steps:
+  - intent: salary_ml
+  - action: utter_salary_ml
+ 
+- story: salary_ai
+  steps:
+  - intent: salary_ai
+  - action: utter_salary_ai
+ 
+- story: course_list
+  steps:
+  - intent: course_list
+  - action: utter_course_list
+ 
+- story: ai_course
+  steps:
+  - intent: ai_course
+  - action: utter_ai_course
+ 
+- story: workshop_organisation
+  steps:
+  - intent: Ask_workshop
+  - action: utter_workshop
+ 
+- story: tie_ups_org
+  steps:
+  - intent: Ask_tie_ups
+  - action: utter_tie_ups
+ 
+- story: collaboration_org
+  steps:
+  - intent: collaboration
+  - action: utter_collaboration
+ 
+- story: career_org
+  steps:
+  - intent: career
+  - action:  utter_career
+ 
+- story: scope_is_high_org
+  steps:
+  - intent: scope_high
+  - action: utter_scope_high
+ 
+- story: per_batch_teacher_org
+  steps:
+  - intent: per_batch_teacher
+  - action: utter_per_batch_teacher
+ 
+- story: help_my_kid_org
+  steps:
+  - intent: help_my_kid
+  - action: utter_help_my_kid
+ 
+- story: opt_offline_org
+  steps:
+  - intent: opt_offline
+  - action: utter_opt_offline
+ 
+- story: Yes_org
+  steps:
+  - intent: Yes_
+  - action: utter_yes
+ 
+- story: word_coding_org
+  steps:
+  - intent: word_coding
+  - action: utter_word_coding
+ 
+- story: value_added_course_org
+  steps:
+  - intent: value_added_course
+  - action: utter_value_added_course
+ 
+- story: contact_instructor_org
+  steps:
+  - intent: contact_instructor
+  - action: utter_contact_instructor
+ 
+- story: where_certificate_org
+  steps:
+  - intent: Certification
+  - action: utter_certification
+ 
+- story: About Python
+  steps:
+  - intent: About_Python
+  - action: utter_About_Python
+ 
+- story: about_assignment
+  steps:
+  - intent: About_assignment
+  - action: utter_assignment
+ 
+- story: About_coding
+  steps:
+  - intent: About_coding
+  - action: utter_coding
+ 
+- story: About_feedback
+  steps:
+  - intent: About_feedback
+  - action: utter_feedback
+ 
+- story:  About_blockchain
+  steps:
+  - intent:  About_blockchain
+  - action: utter_About_blockchain
+ 
+- story: About_subscription
+  steps:
+  - intent: About_subscription
+  - action: utter_About_subscription
+ 
+- story: About_intermediate_pack
+  steps:
+  - intent: About_intermediate_pack
+  - action: utter_About_intermediate_pack
+ 
+- story: About_professional_pack
+  steps:
+  - intent: About_professional_pack
+  - action: utter_professional_pack
+ 
+- story: About_starter_pack
+  steps:
+  - intent: About_starter_pack
+  - action: utter_starter_pack
+ 
+- story: About_interface
+  steps:
+  - intent: About_interface
+  - action: utter_interface
+ 
+- story: About_internet
+  steps:
+  - intent: About_internet
+  - action: utter_internet
+ 
+- story: About_basic_course
+  steps:
+  - intent: About_basic_course
+  - action: utter_basic_course
+ 
+- story: super_sessions
+  steps:
+  - intent: super_session
+  - action: utter_super_session
+ 
+- story: fees_1
+  steps:
+  - intent: fees_1
+  - action: utter_fees_1
+ 
+- story: fees_2
+  steps:
+  - intent: fees_2
+  - action: utter_fees_2
+ 
+- story: fees_3
+  steps:
+  - intent: fees_3
+  - action: utter_fees_3
+ 
+- story: fees_4
+  steps:
+  - intent: fees_4
+  - action: utter_fees_4
+ 
+- story: fees_5
+  steps:
+  - intent: fees_5
+  - action: utter_fees_5
+ 
+- story: fees_6
+  steps:
+  - intent: fees_6
+  - action: utter_fees_6
+ 
+- story: fees_7
+  steps:
+  - intent: fees_7
+  - action: utter_fees_7
+ 
+- story: what_scratch
+  steps:
+  - intent: what_scratch
+  - action: utter_what_scratch
+ 
+- story: utter_5_coding_lang
+  steps:
+  - intent: 5_coding_lang
+  - action: utter_5_coding_lang
+ 
+- story: contact_us
+  steps:
+  - intent: contact_us
+  - action: utter_contact_us
+ 
+- story: algo
+  steps:
+  - intent: algo
+  - action: utter_algo
+ 
+- story: daughter
+  steps:
+  - intent: daughter
+  - action: utter_daughter
+ 
+- story: pre_prof
+  steps:
+  - intent: pre_prof
+  - action: utter_pre_prof
+ 
+- story: pre_inter
+  steps:
+  - intent: pre_inter
+  - action: utter_pre_inter
+ 
+- story: change_tutor
+  steps:
+  - intent: change_tutor
+  - action: utter_change_tutor
+ 
+- story: Prices_will_vary_upon_class_grades
+  steps:
+  - intent: Prices_will_vary_upon_class_grades
+  - action: utter_Prices_will_vary_upon_class_grades
+ 
+- story: single_courses
+  steps:
+  - intent: single_courses
+  - action: utter_single_courses
+ 
+- story: skills_scratch
+  steps:
+  - intent: skills_scratch
+  - action: utter_skills_scratch
+ 
+- story: welcome
+  steps:
+  - intent: welcome_queries
+  - action: utter_welcome_queries
+ 
+- story: ratings and reviews
+  steps:
+  - intent: ratings_and_reviews
+  - action: utter_ratings_and_reviews
+ 
+- story: about demo class
+  steps:
+  - intent: about_demo_class
+  - action: utter_about_demo_class
+ 
+- story: time slot and mentor change
+  steps:
+  - intent: time_slot_and_mentor_change
+  - action: utter_time_slot_and_mentor_change
+ 
+- story: discounts
+  steps:
+  - intent: discounts
+  - action: utter_discounts
+ 
+- story: Coding Future
+  steps:
+  - intent: Coding_Future
+  - action: utter_coding_future
+ 
+- story: Python Scope
+  steps:
+  - intent: Python_Scope
+  - action: utter_Python_Scope
+ 
+- story: Course Duration
+  steps:
+  - intent: Course_Duration
+  - action: utter_Course_Duration
+ 
+- story: Course Fee
+  steps:
+  - intent: Course_Fee
+  - action: utter_Course_Fee
+ 
+- story: Course Info
+  steps:
+  - intent: Course_Info
+  - action: utter_Course_Info
+ 
+- story: Doubt Class
+  steps:
+  - intent: Doubt_Class
+  - action: utter_Doubt_Class
+ 
+- story: support
+  steps:
+  - intent: support
+  - action: utter_support
+ 
+- story: specialization
+  steps:
+  - intent: specialization
+  - action: utter_specialization
+ 
+- story: How many class
+  steps:
+  - intent: How_many_class
+  - action: utter_How_many_class
+ 
+- story: which course
+  steps:
+  - intent: which_course
+  - action: utter_which_course
+ 
+- story: Exam_evaluation
+  steps:
+  - intent: Exam_evaluation
+  - action: utter_Exam_evaluation
+ 
+- story: web development
+  steps:
+  - intent: web_development
+  - action: utter_web_development
+ 
+- story: start teach
+  steps:
+  - intent: start_teach
+  - action: utter_start_teach
+ 
+- story: Alternative_classes
+  steps:
+  - intent: Alternative_classes
+  - action: utter_Alternative_classes
+ 
+- story: about live classes
+  steps:
+  - intent: Live_classes
+  - action: utter_live_classes
+  - intent: Live_Session
+  - action: utter_Live_Session
+ 
+- story: Ask logical skills development
+  steps:
+  - intent: Ask_logical_skills_development
+  - action: utter_Ask_logical_skills_development
+ 
+- story: Study material
+  steps:
+  - intent: Study_material
+  - action: utter_Study_Material
+ 
+- story: Python Easy
+  steps:
+  - intent: python_easy
+  - action:  utter_python_easy
+ 
+- story: About Mentor org
+  steps:
+ - intent: About_Mentor
+ - action: utter_about_mentor
+ 
+- story: Kids_Performance org
+  steps:
+  - intent: Kids_Performance
+  - action:  utter_Kids_performance
+ 
+- story: Python_Language org
+  steps:
+  - intent: Python_Language
+  - action:  utter_Python_Language
+ 
+- story: Enrolling_Process org
+  steps:
+  - intent: Enrolling_Process
+  - action:  utter_Enrolling_Process
+ 
+- story: Python_Use_In_Web_Dev org
+  steps:
+  - intent: Python_Use_In_Web_Dev
+  - action:  utter_Python_Use_In_Web_Dev
+ 
+- story: Home_Tutor org
+  steps:
+  - intent: Home_Tutor
+  - action:  utter_Home_Tutor
+ 
+- story: Doubt_Class_Frequency org
+  steps:
+  - intent: Doubt_Class_Frequency
+  - action:  utter_Doubt_Class_Frequency
+ 
+- story: Doubt_Class_Time org
+  steps:
+  - intent: Doubt_Class_Time
+  - action:  utter_Doubt_Class_Time
+ 
+- story: CKY_Website org
+  steps:
+  - intent: CKY_Website
+  - action:  utter_CKY_Website
+ 
+- story: about_join_live_classes  org
+  steps:
+  - intent: about_join_live_classes 
+  - action:  utter_attend_class
+ 
+- story: Attend_Classes  org
+  steps:
+  - intent: Attend_Classes 
+  - action:  utter_attend_class
+ 
+- story: Benefit_of_c++_Programming
+  steps:
+  -intent: Benefit_of_c++_Programming
+  -action: utter_Benefit_Of_C++
+ 
+- story: Scratch_Programming
+  steps:
+  -intent: Scratch_Programming
+  -action:  utter_Scratch_Programming
+ 
+- story: Free_Course
+  steps:
+  -intent: Free_Course
+  -action:   utter_Free_Course
+ 
+-story: Course-Package
+  steps:
+  -intent: Course-Package
+  -action:   utter_Course-Package
+ 
+- story: choosing_Programming_Language
+  steps:
+  -intent: choosing_Programming_Language
+  -action: utter_choosing_programming_language
+ 
+- story: bot challenge
+  steps:
+  -intent: bot_challenge
+  -action: utter_bot_challenge
+ 
+- story: about_php
+  steps:
+  - intent: About_PHP
+  - action: utter_About_PHP
+ 
+- story: about_after_scratch_program
+  steps:
+  - intent: After_Scratch_Program
+  - action: utter_After_Scratch_program
+ 
+- story: about_html_scope
+  steps:
+  - intent: HTML_Scope
+  - action: utter_HTML_Scope
+ 
+- story: about_use_cplus_HTML
+  steps:
+  - intent: Use_of_c++_and_HTML
+  - action: utter_Use_of_c++_and_HTML
+ 
+- story: about_Intermediate_and_Advance_Course
+  steps:
+  - intent: About_Intermediate_and_Advance_Course
+  - action: utter_Intermediate_And_Advance_Course
+ 
+- story: about_Intermediate_and_Professional_Course
+  steps:
+  - intent: About_Intermediate_and_Professional_Course
+  - action: utter_Intermediate_And_Professional_Course
+ 
+- story: about_Course_Content
+  steps:
+  - intent: Course_Content
+  - action: utter_Course_Content
+ 
+- story: Technical_Issue_During_Class
+  steps:
+  - intent: Technical_Issue_During_Class
+  - action: utter_Technical_Issue_During_Class
+ 
+- story: Summer_Camp
+  steps:
+  - intent: summer_camp
+  - action: utter_summer_camp
+ 
+- story: yes_you_can
+  steps:
+  - intent: yes_you_can
+  - action: utter_yes_you_can
+ 
+- story: computer_games
+  steps:
+  - intent: computer_games
+  - action: utter_computer_games
+
+- story: headquarters
+  steps:
+  - intent: headquarters
+  - action: utter_headquarters
+ 
+ 
+ 
+
+

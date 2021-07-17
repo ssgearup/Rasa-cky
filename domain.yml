@@ -1,0 +1,770 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- Live_classes
+- goodbye
+- greet
+- scope_high
+- per_batch_teacher
+- help_my_kid
+- opt_offline
+- word_coding
+- value_added_course
+- contact_instructor
+- coding_importance
+- about_app
+- ratings_and_reviews
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- Coding_Future
+- Python_Scope
+- Course_Duration
+- Course_Fee
+- Course_Info
+- About_Python
+- fun_projects
+- ds_roadmap
+- duration_trial
+- duration_proffesional
+- batch_size
+- duration_starter
+- duration_basic
+- ask_report
+- ask_course_query
+- ask_remove_course
+- super_yearly
+- no_weekly_classes
+- no_weekly_starter
+- duration_intermediate
+- Can_I
+- Study_material
+- fees_1
+- fees_2
+- fees_3
+- fees_4
+- fees_5
+- fees_6
+- fees_7
+- what_scratch
+- algo
+- daughter
+- pre_prof
+- pre_inter
+- Certification
+- Alternative_classes
+- correct_age
+- classes_yearly
+- bug
+- which_course
+- cancellation
+- html_duration
+- duration_learn
+- duration_class
+- advance_include
+- teacher_accuracy
+- annual_fees
+- platform
+- 5th_grader
+- api
+- ai_course
+- salary_fullstack
+- salary_ml
+- salary_ai
+- course_list
+- Ask_tie_ups
+- collaboration
+- career
+- contact_us
+- Yes_
+- academic_progress
+- student_struggling
+- discounts
+- Ask_workshop
+- About_professional_pack
+- start_teach
+- About_starter_pack
+- About_interface
+- About_internet
+- About_basic_course
+- about_join_live_classes
+- Ask_logical_skills_development
+- About_Mentor
+- Kids_Performance
+- Doubt_Class
+- Python_Language
+- Enrolling_Process
+- Python_Use_In_Web_Dev
+- Attend_Classes
+- Home_Tutor
+- Doubt_Class_Frequency
+- Doubt_Class_Time
+- CKY_Website
+- CKY_Reviews
+- Technical_Issue_During_Class
+- change_tutor
+- why_cky
+- experience
+- skills_scratch
+- single_courses
+- python_easy
+- Future_Python
+- About_PHP
+- summer_camp
+- Exam_evaluation
+- Coding_Interest
+- Apply_For_Coding
+- About_Java_Program
+- yes_you_can
+- How_many_class
+- Prices_will_vary_upon_class_grades
+- monthly_fees
+- super_session
+- About_HTML
+- opensource
+- HTML_Scope
+- time_slot_and_mentor_change
+- Use_of_c++_and_HTML
+- Programming_Language
+- programming
+- Live_Session
+- Course-Package
+- About_Intermediate_and_Professional_Course
+- About_Intermediate_and_Advance_Course
+- Course_Content
+- After_Scratch_Program
+- choosing_Programming_Language
+- Benefit_of_c++_Programming
+- Scratch_Programming
+- Free_Course
+- about_demo_class
+- Ask_co-curricular
+- Ask_guide_helpline
+- Ask_block_based_coding
+- About_CKY
+- About_assignment
+- About_coding
+- web_development
+- About_feedback
+- About_trial_classes
+- About_blockchain
+- About_subscription
+- welcome_queries
+- About_intermediate_pack
+- no_basic_classes
+- time_web_expert
+- specialization
+- support
+- computer_games
+- 5_coding_lang
+- scratch_age
+- about_mentor
+- About_Course
+- future_python
+- What_scratch
+- what_programming
+- interest
+- headquarters
+responses:
+  utter_Ask_logical_skills_development:
+  - text: Coding teaches  logical reasoning, critical thinking, and most importantly
+      helps us to solve problems by creating software that makes life easier for people.
+  utter_greet:
+  - text: Welcome to CodeKaro yaaro, how may I help you?
+  utter_affirm:
+  - text: Agreed
+  utter_deny:
+  - text: Disagreed
+  utter_mood_unhappy:
+  - text: Joke is a joke.
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_mood_great:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_bot_challenge:
+  - text: I am a CKY bot, powered by Rasa.
+  utter_Can_I:
+  - text: Yes, Contact us at +91 8010996763 for more information.
+  utter_coding_importance:
+  - text: ' Coding teaches  logical reasoning, critical thinking, and most importantly
+      helps us to solve problems by creating software that makes life easier for people.'
+  utter_About_PHP:
+  - text: ' PHP is a scripting language used for web development'
+  utter_contact_us:
+  - text: Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know about
+      this.
+  utter_about_app:
+  - text: Currently we don't have an app, but you can sign up to our website.
+  utter_academic_progress:
+  - text: ' Curriculum based monitoring tests, observation and interaction, formative
+      assessment, frequent evaluations.'
+  utter_student_struggling:
+  - text: " Do engage with our codekaroyaro classes they will easily understand coding\
+      \ and they won't struggle anymore"
+  utter_no_basic_classes:
+  - text: 8 classes available in Basic course plan.
+  utter_why_cky:
+  - text: Code Karo Yaaro has an objective towards kid development by teaching them  programming
+      languages and opening a new world of opportunities.
+  utter_experience:
+  - text: Have an experience of 5 - 10 years.
+  utter_time_web_expert:
+  - text: It depends on your hard work, daily practices.
+  utter_monthly_fees:
+  - text: Contact us at +91 8010996763 for information.
+  utter_scratch_age:
+  - text: Preferred for kids of grade 1 and so on.
+  utter_programming:
+  - text: Programming is the process of telling a computer to do certain things by
+      giving it instructions. These instructions are called programs.
+  utter_opensource:
+  - text: Software for which the original source code is made freely available.
+  utter_super_session:
+  - text: There are 3 super sessions.
+  utter_fun_projects:
+  - text: We have fun based projects as well as academic courses.
+  utter_ds_roadmap:
+  - text: We have a professional course. In that we provide 3 super sessions per week.
+      In that you will get insight into various programming languages.
+  utter_duration_trial:
+  - text: ' 1 week'
+  utter_duration_proffesional:
+  - text: 1 Year.
+  utter_batch_size:
+  - text: ' 25-30 students in a batch.'
+  utter_duration_starter:
+  - text: 3 Months.
+  utter_duration_basic:
+  - text: ' 3 months.'
+  utter_super_yearly:
+  - text: 3 super sessions per week.
+  utter_no_weekly_classes:
+  - text: 3 super sessions per week.
+  utter_no_weekly_starter:
+  - text: ' 48 classes available in the Starter course plan.'
+  utter_duration_intermediate:
+  - text: ' 6 months.'
+  utter_correct_age:
+  - text: 7 years of age.
+  utter_bug:
+  - text: A bug is an error or a fault in a computer program. Learn more details from
+      our website.  https://www.codekaroyaaro.com/.
+  utter_classes_yearly:
+  - text: 96 classes available in Starter course plan.
+  utter_certification:
+  - text: Through online mode.
+  utter_cancellation:
+  - text: A student/parent may apply for a refund within a period of 15 (fifteen)
+      days after purchasing the course.
+  utter_html_duration:
+  - text: This is according to the capability of the student.Also our mentor will
+      be present for any help.
+  utter_duration_class:
+  - text: According to the courses duration may vary
+  utter_advance_include:
+  - text: Advanced pack is for 1 Year (3 Super Sessions Per Week), Introduction to
+      Programming Languages, Game App + Mobile App + Website.For any query contact
+      us at +91 8010996763.
+  utter_teacher_accuracy:
+  - text: All mentors are well experienced and qualified in their respective field.
+  utter_annual_fees:
+  - text: Annual packages courses are for students in 10+ grades worth 12000/- Rupees.For
+      any query contact us at +91 8010996763.
+  utter_platform:
+  - text: Any online meeting platform.For any query contact us at +91 8010996763.
+  utter_5th_grader:
+  - text: ' Any type of interested domain is encouraged.'
+  utter_api:
+  - text: API stands for Application Programming Interface. In basic terms, APIs are
+      a set of functions and procedures.
+  utter_ai_course:
+  - text: Artificial intelligence (AI) is intelligence demonstrated by machines, unlike
+      the natural intelligence displayed by humans and animals.For AI courses contact
+      us at +91 8010996763.
+  utter_salary_fullstack:
+  - text: Average salary is around Rs 427,293.
+  utter_salary_ml:
+  - text: Average salary is around Rs 500,000.
+  utter_salary_ai:
+  - text: Average salary is around Rs 698,413.
+  utter_course_list:
+  - text: Basic Course, Starter Course, Yearly Plan.For any query contact us at +91
+      8010996763.
+  utter_Ask_co-curricular:
+  - text: Co-Curricular.For any query contact us at +91 8010996763.
+  utter_Ask_guide_helpline:
+  - text: ' For any query contact us at +91 8010996763.'
+  utter_Ask_block_based_coding:
+  - text: Block-based coding utilizes a drag-and-drop learning environment, where
+      programmers use coding instruction “blocks” to construct animated stories and
+      games.
+  utter_about_cky:
+  - text: In 2020, Code Karo Yaaro, was founded by Manish Motghare which is an online
+      coding school for kids from 6 years to 15 years old.
+  utter_workshop:
+  - text: We do not conduct workshops. In the future, we are deciding to start many
+      workshops.For any query contact us at +91 8010996763.
+  utter_tie_ups:
+  - text: We do not have any tie-ups yet, we are looking forward to it.For any query
+      contact us at +91 8010996763.
+  utter_collaboration:
+  - text: We do not have any collaboration with any school, we are looking forward  to
+      it.For any query contact us at +91 8010996763.
+  utter_career:
+  - text: Follow us on LinkedIn, where we regularly post about vacancy details.For
+      any query contact us at +91 8010996763.
+  utter_scope_high:
+  - text: Future scope is high.For any query contact us at +91 8010996763.
+  utter_per_batch_teacher:
+  - text: Per batch 1 teacher is alloted.
+  utter_help_my_kid:
+  - text: Learn with your child.And for any query contact us at +91 8010996763.
+  utter_opt_offline:
+  - text: Currently, we are conducting online sessions only.
+  utter_yes:
+  - text: Yes,for sure.And for any query contact us at +91 8010996763.
+  utter_word_coding:
+  - text: Our courses are designed to make word code fun by dance, games and many
+      more fantastic things.
+  utter_value_added_course:
+  - text: Our professional teachers are best in teaching coding skills as well as
+      they are great humans from which kids get good human values.
+  utter_contact_instructor:
+  - text: Our quick resolution team is 24*7 available for resolve any queries or question.For
+      any query contact us at +91 8010996763.
+  utter_Python_Scope:
+  - text: There is a huge scope in learning Python as it is used in many fields like
+      Machine learning, Deep learning etc. It is user friendly and easy to learn.
+      Which comes with a good salary.For any query contact us at +91 8010996763.
+  utter_About_Python:
+  - text: Python is an interpreted, object-oriented, high-level programming language
+      which is user friendly and easy to learn. It has a high scope in future. Python
+      has many types of modules and frameworks which can be used to develop many applications
+      and various things. Python's simple, easy to learn syntax emphasizes readability
+      and therefore reduces the cost of program maintenance.For any query contact
+      us at +91 8010996763.
+  utter_assignment:
+  - text: Yes assignment will be assigned and for any query contact us at +91 8010996763.
+  utter_coding:
+  - text: Yes but with the help of a mentor/counsellor it can be easier to understand
+      and the mentor will be there to clear any doubts.For any query contact us at
+      +91 8010996763.
+  utter_feedback:
+  - text: Yes we do have feedback from our children you can check them on our official
+      website https://www.codekaroyaaro.com/.
+  utter_About_trial_classes:
+  - text: Yes we do provide 1 trial class.
+  utter_About_blockchain:
+  - text: Yes we have java, python that is a supported language for blockchain.
+  utter_About_subscription:
+  - text: Yes we provide a per head subscription.
+  utter_About_intermediate_pack:
+  - text: Yes we provide an intermediate pack @ Rs 8000/- and for more details please
+      refer to our website https://www.codekaroyaaro.com/.
+  utter_professional_pack:
+  - text: Yes we provide a professional pack @ Rs 12000/- and for more details pls
+      refer to our website https://www.codekaroyaaro.com/.
+  utter_starter_pack:
+  - text: Yes we provide a starter pack @ Rs 4000/- and for more details please refer
+      to our website https://www.codekaroyaaro.com/.
+  utter_interface:
+  - text: Yes we use scratch programming language for children in 1-4 grade and artistic
+      lab for small kids. And python for the rest of them. Both programming languages
+      are quite user friendly.
+  utter_internet:
+  - text: Yes you will need an internet connection for attending the classes.
+  utter_basic_course:
+  - text: Yes, mobile app development is there in the basic course plan.
+  utter_welcome_queries:
+  - text: Yes,CodeKaroYaaro warmly welcomes you. please visit our website to check
+      the courses or contact us on Phone +91 8010996763.
+  utter_ratings_and_reviews:
+  - text: We are able to secure a perfect 5 star across various platforms.
+  utter_about_demo_class:
+  - text: Yes, we do provide demo classes. Click on this link to book a demo class
+      https://www.codekaroyaaro.com/book-free-demo.
+  utter_time_slot_and_mentor_change:
+  - text: For changing of Batch Timing or Teacher you need to contact your dedicated
+      Academic Mentor.
+  utter_discounts:
+  - text: Please contact us in the given contact no. +91 8010996763 for more information.
+  utter_specialization:
+  - text: We provide specialisation in android application development, games development
+      and web-based application development.
+  utter_How_many_class:
+  - text: We provide 3 super sessions per week. you can send email about it at info@codekaroyaaro.com
+      or else you can contact us at. +91 8010996763.
+  utter_which_course:
+  - text: Web Development, Mobile App Development, Artificial Intelligence, Python
+      Programming, Game App Development.
+  utter_web_development:
+  - text: Web development is the work involved in developing a Web site for the Internet
+      (​World Wide Web) or an intranet (a private network).
+  utter_start_teach:
+  - text: We will be starting from the fundamentals of programming afterwards your
+      child can choose the one he/she wants to opt for.
+  utter_ask_report:
+  - text: Our professional mentors keep the report of every kid on the basis of assessments
+      and daily hard work of the kid and provide them to parents which motivates them
+      to do more efforts towards coding.
+  utter_ask_course_query:
+  - text: Introduction to every topic is included in the starter package which makes
+      the kid decide the field of their interest and makes them work best in the same
+      field.
+  utter_ask_remove_course:
+  - text: You can check the course details on our website or contact us on  Phone
+      +91 8010996763.
+  utter_Course-Package:
+  - text: Starter pack is for three months duration whereas advance pack is for one
+      year, For any clarification regarding Package you can send email about it at
+      info@codekaroyaaro.com or else you can contact us at. +91 8010996763.
+  utter_fees_1:
+  - text: Rs 12,000, where we provide other languages as well.
+  utter_fees_2:
+  - text: Rs 15360, For further information about Fees structure you can send email
+      about it at info@codekaroyaaro.com or else you can contact us at. +91 8010996763.
+  utter_fees_3:
+  - text: Rs 26880, For further information about Fees structure you can send email
+      about it at info@codekaroyaaro.com or else you can contact us at. +91 8010996763.
+  utter_fees_4:
+  - text: Rs 2800, For further information about Fees structure you can send email
+      about it at info@codekaroyaaro.com or else you can contact us at. +91 8010996763.
+  utter_fees_5:
+  - text: Rs 4,500, where we provide other languages as well. For further information
+      about Fees structure you can send email about it at info@codekaroyaaro.com or
+      else you can contact us at. +91 8010996763.
+  utter_fees_6:
+  - text: Rs 8,000, where we provide other languages as well. For further information
+      about Fees structure you can send email about it at info@codekaroyaaro.com or
+      else you can contact us at. +91 8010996763.
+  utter_fees_7:
+  - text: Rs 4,000. For further information about Fees structure you can send email
+      about it at info@codekaroyaaro.com or else you can contact us at. +91 8010996763.
+  utter_what_scratch:
+  - text: Scratch enables students to create projects that express their ideas. ...
+      With Scratch, young people can learn how to use coding to bring their ideas
+      to life.Scratch is a programming language.With Scratch you can program your
+      own interactive stories, games, and animations. Learn more at our official website
+      https://www.codekaroyaaro.com/.
+  utter_5_coding_lang:
+  - text: Scratch, python , c, c++,html, Check our website https://www.codekaroyaaro.com/
+      or you can contact us at +91 8010996763.
+  utter_algo:
+  - text: Send an email about it at info@codekaroyaaro.com or you can contact us at.
+      +91 8010996763.
+  utter_daughter:
+  - text: She can opt for C++, C, Java or Python.
+  utter_pre_prof:
+  - text: Should have intermediate level knowledge.
+  utter_pre_inter:
+  - text: Should have starter knowledge.
+  utter_change_tutor:
+  - text: Since there is availability of many teachers you can discuss it. To know
+      more about this Contact us  at. +91 8010996763 or https://www.codekaroyaaro.com/.
+  utter_python_easy:
+  - text: Python is considered one of the easiest languages to learn.
+  utter_interest:
+  - text: It depends on the interest of an individual.
+  utter_future_python:
+  - text: Python-based tech is driving innovation and new solutions.
+  utter_Prices_will_vary_upon_class_grades:
+  - text: So basically we have basic, starter and yearly plans at different price
+      ranges, so have a look at our site. Contact us at +91 8010996763 and email at
+      info@codekaroyaaro.com.
+  utter_single_courses:
+  - text: Sorry, we don't teach a single course.
+  utter_skills_scratch:
+  - text: Social skills and Helps children become fluent with technologies.
+  utter_Enrolling_Process:
+  - text: Yes,the enrolling process is quite easy. You just need to click on the selected
+      course and fill in the required details. For further details Contact us at +91
+      8010996763 and email at info@codekaroyaaro.com.
+  utter_Python_Language:
+  - text: Yes,Python is an open source programming language, and you can easily learn
+      it.
+  utter_Doubt_Class:
+  - text: Yes, your academic mentor will solve your doubts accordingly.Yes, you can
+      talk to an academic mentor about your child's performance.
+  utter_Free_Course:
+  - text: Yes, you can have a free trial session.
+  utter_about_mentor:
+  - text: Yes, we provide the best teachers.
+  utter_Coding_Interest:
+  - text: Encourage your Kids to 'Think' like a Programmer, It's Never too Early to
+      Introduce Coding, Free Programs and Tools to Get Kids Interested in Coding.
+  utter_apply_for_coding:
+  - text: Every modern thing you can see around is however connected to the coding
+      from the remote of your TV to your android Television and mobiles.
+  utter_Coding_Benefit:
+  - text: Everything we learn will help us anyhow, same for coding, coding never gets
+      old and it motivates them to learn more in the vast world of coding.
+  utter_Java_Programming:
+  - text: Finds use in real world applications, universal usage, lots of job opportunities,
+      powerful development tools and so on.
+  utter_Scratch_Programming:
+  - text: Get enrolled in our CKY for skilled based and quality learning in programming.Also,
+      it enhances the creativity and productivity of children.
+  utter_Benefit_Of_C++:
+  - text: Has abundant library support, has a large community, is portable, in graphics,
+      in embedded systems and so on.
+  utter_After_Scratch_program:
+  - text: Help him get professional skills from scratch by enrolling to our website.
+  utter_HTML_Scope:
+  - text: HTML continues to be a useful content expression language that powers Web
+      growth.
+  utter_HTML:
+  - text: HTML is a Hyper Text Markup Language used for designing web pages.
+  utter_Use_of_c++_and_HTML:
+  - text: HTML is used to create web pages while C++ is used to create applications.
+  utter_choosing_programming_language:
+  - text: Html, Java and python programming.
+  utter_Study_Material:
+  - text: If you join our courses, we provide you with our certified notes and study
+      material, which comes with the course itself. We think that books are tough
+      for the kids to understand.
+  utter_Live_Session:
+  - text: In live sessions, students can interact with the mentor live instead of
+      a recorded lecture.
+  utter_Intermediate_And_Advance_Course:
+  - text: Intermediate pack is for six months duration whereas advance pack is for
+      one year.
+  utter_Intermediate_And_Professional_Course:
+  - text: Intermediate is one step lower than professional level.
+  utter_Course_Content:
+  - text: Introduction to Programming Languages Game App + Mobile App + Website.
+  utter_Course_Info:
+  - text: It depends on which grade your kid is. For each Grade we offer 3 types of
+      courses - starter, intermediate and professional. Contact us at +91 8010996763
+      and email at info@codekaroyaaro.com.
+  utter_Course_Fee:
+  - text: It depends on the course you choose,for the starter package it costs 4,500,for
+      The intermediate package costs 8,000,for the professional package it costs 12,000.
+      Contact us at +91 8010996763 and email at info@codekaroyaaro.com.
+  utter_Course_Duration:
+  - text: It depends on your hard work, daily practices.
+  utter_coding_future:
+  - text: It helps to have various opportunities in the IT sector.
+  utter_Python_Use_In_Web_Dev:
+  - text: Yes Web Dev using python has been very popular for years.
+  utter_exam_conduct:
+  - text: Exams or tests will be conducted regularly to show performance.
+  utter_attend_class:
+  - text: “Yes, you only need the internet.  kindly visit our website for more information
+      https://www.codekaroyaaro.com/ or you can call us at  +91 8010996763 ."
+  utter_Home_Tutor:
+  - text: “We are providing online classes."
+  utter_Doubt_Class_Frequency:
+  - text: “You can ask doubts to your respective academic mentor during live classes."
+  utter_Doubt_Class_Time:
+  - text: “Our experts are available every time for your queries to serve you best
+      as much as we can."
+  utter_CKY_Website:
+  - text: “you can visit our  website:https://www.codekaroyaaro.com/."
+  utter_CKY_Reviews:
+  - text: “You can check student reviews about us on our official website https://www.codekaroyaaro.com/.
+      Also you can check on quora or you can visit our YouTube channel to know more."
+  utter_Trial_Course:
+  - text: “You can choose any available starter course. Kindly visit our website https://www.codekaroyaaro.com/."
+  utter_Technical_Issue_During_Class:
+  - text: “you can discuss with your tutor  and reschedule class, Or you can  Contact
+      us at +91 8010996763 and email at info@codekaroyaaro.com."
+  utter_summer_camp:
+  - text: “Summer camp facility is not available right now."
+  utter_Exam_evaluation:
+  - text: “Exam evaluation pattern will be based on theoretical based or practical
+      based on knowledge."
+  utter_Alternative_classes:
+  - text: “If a child misses some important class then he/she can join an alternative
+      class to learn those topics."
+  utter_yes_you_can:
+  - text: “ If you remove any courses from the yearly plan then you get a discount."
+  utter_live_classes:
+  - text: In live sessions, students can interact with the mentor live instead of
+      a recorded lecture.
+  utter_cheer_up:
+  - text: Here is something to cheer you up
+  utter_duration_learn:
+  - text: It all depends on the capability of your child.Some children grab the concept
+      easily, and for some it varies.
+  utter_Kids_performance:
+  - text: “login to our website https://www.codekaroyaaro.com/ for more information.For
+      more query contact us at +91 8010996763. "
+  utter_support:
+  - text: We offer mentor support, 24*7 queries resolution support,  Or you can  Contact
+      us at +91 8010996763 and email at info@codekaroyaaro.com.
+  utter_computer_games:
+  - text: CKY helps kids to build different games and apps, kindly visit our website
+      for more information https://www.codekaroyaaro.com/.
+  utter_headquarters:
+  - text: We are located at the Address-Ward No. 4, SantNagar, Annamod, Khaperkheda,
+      Saoner, Nagpur, Sitabuldi, Nagpur - 441102.
+actions:
+- utter_Can_I
+- utter_duration_learn
+- utter_no_basic_classes
+- utter_affirm
+- utter_why_cky
+- utter_Technical_Issue_During_Class
+- utter_Prices_will_vary_upon_class_grades
+- utter_time_web_expert
+- utter_monthly_fees
+- utter_scratch_age
+- utter_programming
+- utter_Java_Programming
+- utter_Free_Course
+- utter_opensource
+- utter_super_session
+- utter_fun_projects
+- utter_ds_roadmap
+- utter_Doubt_Class_Time
+- utter_CKY_Website
+- utter_Doubt_Class_Frequency
+- utter_duration_trial
+- utter_duration_proffesional
+- utter_live_classes
+- utter_batch_size
+- utter_duration_starter
+- utter_duration_basic
+- utter_super_yearly
+- utter_experience
+- utter_bot_challenge
+- utter_mood_unhappy
+- utter_deny
+- utter_no_weekly_classes
+- utter_no_weekly_starter
+- utter_duration_intermediate
+- utter_Doubt_Class
+- utter_correct_age
+- utter_bug
+- utter_classes_yearly
+- utter_cancellation
+- utter_html_duration
+- utter_duration_class
+- utter_Scratch_Programming
+- utter_advance_include
+- utter_teacher_accuracy
+- utter_annual_fees
+- utter_platform
+- utter_5th_grader
+- utter_Trial_Course
+- utter_salary_fullstack
+- utter_salary_ml
+- utter_salary_ai
+- utter_course_list
+- utter_Ask_co-curricular
+- utter_Ask_guide_helpline
+- utter_Ask_block_based_coding
+- utter_about_cky
+- utter_welcome_queries
+- utter_ratings_and_reviews
+- utter_about_demo_class
+- utter_time_slot_and_mentor_change
+- utter_discounts
+- utter_coding_importance
+- utter_Benefit_Of_C++
+- utter_choosing_programming_language
+- utter_HTML_Scope
+- utter_Use_of_c++_and_HTML
+- utter_Coding_Benefit
+- utter_Enrolling_Process
+- utter_greet
+- utter_academic_progress
+- utter_goodbye
+- utter_student_struggling
+- utter_specialization
+- utter_How_many_class
+- utter_Course_Content
+- utter_which_course
+- utter_web_development
+- utter_start_teach
+- utter_Course-Package
+- utter_ask_remove_course
+- utter_ask_report
+- utter_HTML
+- utter_ask_course_query
+- utter_interface
+- utter_fees_1
+- utter_fees_2
+- utter_fees_3
+- utter_fees_4
+- utter_fees_5
+- utter_fees_6
+- utter_fees_7
+- utter_what_scratch
+- utter_5_coding_lang
+- utter_coding_future
+- utter_contact_us
+- utter_algo
+- utter_daughter
+- utter_pre_prof
+- utter_pre_inter
+- utter_change_tutor
+- utter_single_courses
+- utter_skills_scratch
+- utter_workshop
+- utter_tie_ups
+- utter_collaboration
+- utter_career
+- utter_scope_high
+- utter_per_batch_teacher
+- utter_help_my_kid
+- utter_opt_offline
+- utter_yes
+- utter_Live_Session
+- utter_word_coding
+- utter_certification
+- utter_value_added_course
+- utter_contact_instructor
+- utter_Python_Scope
+- utter_About_Python
+- utter_Course_Info
+- utter_About_PHP
+- utter_Course_Fee
+- utter_internet
+- utter_python_easy
+- utter_interest
+- utter_Python_Language
+- utter_future_python
+- utter_professional_pack
+- utter_starter_pack
+- utter_about_mentor
+- utter_Coding_Interest
+- utter_attend_class
+- utter_Home_Tutor
+- utter_Course_Duration
+- utter_Exam_evaluation
+- utter_exam_conduct
+- utter_Python_Use_In_Web_Dev
+- utter_Intermediate_And_Professional_Course
+- utter_Intermediate_And_Advance_Course
+- utter_Study_Material
+- utter_CKY_Reviews
+- utter_apply_for_coding
+- utter_Alternative_classes
+- utter_yes_you_can
+- utter_basic_course
+- utter_assignment
+- utter_api
+- utter_ai_course
+- utter_about_app
+- utter_coding
+- utter_feedback
+- utter_About_trial_classes
+- utter_About_blockchain
+- utter_About_subscription
+- utter_About_intermediate_pack
+- utter_cheer_up
+- utter_did_that_help
+- utter_mood_great
+- utter_Kids_performance
+- utter_support
+- utter_computer_games
+- utter_Ask_logical_skills_development
+- utter_summer_camp
+- utter_After_Scratch_program
+- utter_headquarters
